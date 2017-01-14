@@ -1,0 +1,153 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	font-size: 0.625em;
+	font-family: 'Glacial', sans-serif;
+}
+
+body > * {
+	font-size: 2.5rem;
+	font-family: 'Glacial', sans-serif;
+}
+
+header {
+	margin: 5rem auto;
+	margin-bottom: 10rem;
+	width: 95%;
+	height: 7.5rem;
+}
+
+
+header nav {
+	background-color: #062D5D;
+
+}
+
+header ul {
+	display: inline-block;
+}
+
+header li {
+	display: inline-block;
+	line-height: 7.5rem;
+}
+
+header li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 12.5rem;
+	text-align: center;
+}
+
+header li a:hover {
+	background-color: #f18903;
+}
+
+.activeMenu {
+	background-color: #f18903;
+}
+
+.logo {
+	height: 7.5rem;
+	background-color: #f18903;
+	margin-right: 10rem;
+	float: left;
+}
+
+.logo img {
+	height: 7.5rem;
+}
+
+
+
+#smallMenu {
+	display: none;
+	height: 7.5rem;
+}
+
+#hamIcon {
+	width: 3.5rem;
+	height: 3.5rem;
+	margin: 1.75rem;
+}
+
+#hammenu {
+	background-color: #062D5D;
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+#hammenu li {
+	display: block;
+}
+
+#hammenu a {
+	width: 100%;
+	text-align: center;
+	padding: 2.5rem 0 ;
+}
+
+
+
+h2 {
+	margin-left: 15%;
+	font-size: 4rem;
+}
+
+
+footer {
+	margin-top: 20rem;
+	background-color: #f18903;
+}
+
+footer section {
+	display: inline-block;
+	margin: 2.5rem;
+	color: #062D5D;
+	font-size: 2rem;
+}
+
+
+
+
+
+
+
+@font-face {
+	font-family: Glacial;
+	src: url(../fonts/Glacial.otf);
+}
+
+
+/* 600 px */
+@media (max-width: 62.5em) {
+	#hamIcon {
+		display: block;
+		float: right;
+	}
+
+	#hamIcon:hover {
+		cursor: pointer;
+	}
+
+	.logo {
+		margin: 0;
+	}
+
+	nav ul {
+
+		height: 6.9rem;
+	}
+
+	nav #wideMenu {
+		display: none;
+	}
+
+	nav #smallMenu {
+		display: block;
+	}
+}

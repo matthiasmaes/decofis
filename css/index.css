@@ -1,0 +1,62 @@
+.contentBlocks {
+	background-color: #f2f1f1;
+	width: 85%;
+	margin: 5rem auto;
+}
+
+.contentBlocks img {
+	width: 20rem;
+	float: left;
+	margin-right: 5rem;
+}
+
+.contentBlocks h3 {
+	color: #062D5D;
+	padding-top: 5rem;
+	padding-right: 2rem;
+}
+
+.contentBlocks p {
+	padding-top: 2.5rem;
+	padding: 3.3rem;
+	background-color: #f2f1f1;
+}
+
+
+.contentBlocks:hover {
+	cursor: pointer;
+}
+
+
+
+/* 600 px */
+@media (max-width: 37.5em) {
+
+	.contentBlocks {
+		width: 75%;
+	}
+
+	.contentBlocks img {
+		float: none;
+		width: 100%;
+	}
+
+	.contentBlocks h3 {
+		padding: 2.5rem;
+		padding-bottom: 3.5rem;
+		font-size: 2.2rem;
+	}
+
+	.contentBlocks p {
+		font-size: 1.7rem;
+		padding: 2rem;
+	}
+}
+
+
+/* 600 px */
+@media (max-width: 50em) {
+	.contentBlocks h3 {
+		font-size: 2.2rem;
+	}
+}
